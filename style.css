@@ -62,3 +62,13 @@ a:link, a:visited{
     text-decoration: none;
     color: var(--five);
 }
+
+a:hover{
+    color: var(--one);
+}
+
+a:active{
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
