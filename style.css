@@ -19,6 +19,7 @@ body{
 }
 
 main{
+    width: 600px;
     max-width: 600px;
     display: flex;
     flex-direction: row;
@@ -54,13 +55,12 @@ p{
 
 .self{
     display: block;
-    width: auto;
-    height: 100%;;
-}
-
-.self img{
     width: 100%;
-    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("images/cormac.png");
+    background-size: cover;
+    background-position: center;
 }
 
 a:link, a:visited{
