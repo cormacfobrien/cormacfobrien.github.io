@@ -55,7 +55,7 @@ p{
 .self{
     display: block;
     width: 50%;
-    aspect-ratio: auto;
+    height: auto;
 }
 
 a:link, a:visited{
