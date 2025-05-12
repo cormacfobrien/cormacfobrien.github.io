@@ -27,8 +27,14 @@ main{
 }
 
 section{
-    padding: 30px;
+    width: 100%;
+
     font-family: "Roboto", sans-serif;
+}
+
+.text{
+    background-color: var(--four);
+    width: 100%;
 }
 
 h1{
@@ -39,11 +45,20 @@ h1{
 }
 
 h3{
-    
     text-align: center;
+}
+
+p{
+    padding: 20px;
 }
 
 .self{
     display: block;
     width: 50%;
+    aspect-ratio: auto;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: var(--five);
 }
