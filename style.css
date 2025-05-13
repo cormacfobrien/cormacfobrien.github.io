@@ -74,9 +74,9 @@ p{
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    border-right: 5px solid var(--two);
-    border-bottom: 5px solid var(--two);
-    box-shadow: 5px 5px 0px var(--one);
+    box-shadow: 
+    3px 3px 0px var(--two),
+    6px 6px 0px var(--one);
 }
 
 a:link, a:visited{
