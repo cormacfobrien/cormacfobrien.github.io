@@ -93,3 +93,19 @@ a:active{
     top: 2px;
     left: 2px;
 }
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.links a{
+    display: block;
+}
+
+.links div{
+    display: block;
+}
