@@ -97,8 +97,8 @@ a:active{
 .links{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:left;
+    align-items: left;
     width: 100%;
 }
 
