@@ -4,6 +4,7 @@
     --three: #40531B;
     --four: #618B4A;
     --five: #210F04;
+    --five-50: #210F04AA;
 }
 
 body{
@@ -58,6 +59,7 @@ h1{
 h3{
     text-align: left;
     font-size: .8em;
+    color: var(--five-50);
 }
 
 p{
@@ -112,9 +114,6 @@ a:active{
 }
 
 @media screen and (max-width: 400px){
-    body{
-
-    }
     main{
         flex-direction: column;
         width: 100%;
